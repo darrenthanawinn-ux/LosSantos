@@ -1,0 +1,11 @@
+*{box-sizing:border-box}body{margin:0;background:#0b0d10;color:#d8dde3;font:16px/1.6 Georgia,serif}
+main{max-width:860px;margin:0 auto;padding:16px;display:flex;flex-direction:column;height:100vh}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #3fa34d;padding-bottom:8px}
+h1{margin:0;font:700 20px/1 Impact,sans-serif;letter-spacing:3px}h1 span{color:#3fa34d}
+button{background:#1b2027;color:#9fe0a8;border:1px solid #3fa34d;padding:6px 12px;cursor:pointer;font:12px monospace;margin-left:6px}
+button:hover{background:#3fa34d;color:#000}
+#story{flex:1;overflow-y:auto;padding:12px 4px}.turn{margin-bottom:22px}.you{color:#7ec8ff;font:14px monospace}
+.ch{font:14px monospace;color:#f2c94c;margin:2px 0}.cue{color:#9aa4ae;font-style:italic}.alert{color:#ff6b6b}
+#hud{margin:8px 0;padding:8px;background:#000;border:1px solid #2a3139;color:#7dff8c;font:12px/1.35 "Courier New",monospace;overflow-x:auto}
+form{display:flex}input{flex:1;padding:10px;background:#12161b;border:1px solid #3fa34d;color:#fff;font:15px monospace}
+@media(max-width:600px){#hud{font-size:9px}}
